@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="content">
         <h1>Zoo - Simple Zoom (React)</h1>
-        <Zoo image="https://luismachain95.github.io/Caro/image/img.jpg" width='500' height='500'/>
+        <Zoo image="https://luismachain95.github.io/Zoo/image/img.jpg" width='500' height='500'/>
       </div>
     );
   }
