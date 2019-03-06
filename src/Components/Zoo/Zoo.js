@@ -69,6 +69,11 @@ class Zoo extends Component {
         const { left, top } = e.target.getBoundingClientRect()
         x = e.pageX - left;
         y = e.pageY - top;
+
+        /* Corrige si hay scrolling */
+        x = x - window.pageXOffset;
+        y = y - window.pageYOffset;
+
         return {x : x, y : y};
     }
 
